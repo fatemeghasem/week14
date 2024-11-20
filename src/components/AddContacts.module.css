@@ -1,0 +1,60 @@
+.container2{
+    background: #dedeeb;
+    position: absolute;
+    width: 700px;
+    margin:50px 100px;
+    border-radius: 30px;
+
+}
+
+
+.container2 label , input{
+   flex-basis: 0;
+   flex-grow: 1;
+}
+
+
+.container2 button{
+   background: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   width: calc(100% - 40px);
+   margin: 30px;
+   color: #daa9d1;
+   border: none;
+   border-radius: 20px;
+}
+
+.container2 button:hover{
+   box-shadow: 14px 8px 59px 6px rgba(153,165,201,1);
+}
+
+.even{
+   background: #9ca593;
+   color: #4e505c;
+}
+
+.odd{
+   background: #4e505c;
+   color: #9ca593;
+}
+
+.container2 input{
+   width: 70%;
+   margin:20px 90px 20px ;
+   align-items: center;
+}
+
+.odd ,.even{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   z-index: 1;
+   
+  }
+  .container2 label{
+   margin-left: 20px;
+  }
+
